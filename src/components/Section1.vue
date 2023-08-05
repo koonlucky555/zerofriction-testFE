@@ -18,6 +18,10 @@
 </template>
 
 <style scoped>
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+    * {
+      font-family: "Montserrat", sans-serif;
+    }
 .text-96{
     font-size: 96px;
 }
