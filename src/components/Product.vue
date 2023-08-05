@@ -1,14 +1,14 @@
 <template>
   <div class="bg-green">
     <div class="container padding-y-100">
-      <h1 class="text-uppercase text-60 text-center">Lorem Ipsum</h1>
+      <h1 class="text-uppercase text-60 text-center fw-semibold">Lorem Ipsum</h1>
       <div class="row mt-5">
         <div
-          class="col-lg-4 col-md-6 col-sm-12"
+          class="col-lg-4 col-md-6 col-sm-12 mb-5"
           v-for="product in products"
           :key="product.id"
         >
-          <div class="card mb-5">
+          <div class="card h-100">
             <img
               class="card-img-top"
               :src="product.thumbnail"
@@ -46,9 +46,13 @@
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', 'Noto Sans Thai';
 }
 
 .card-img-top {
