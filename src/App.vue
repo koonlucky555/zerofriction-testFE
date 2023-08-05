@@ -1,19 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Section1 from './components/Section1.vue'
-import Section2 from './components/Section2.vue'
-import Section3 from './components/Section3.vue'
-import Section4 from './components/Section4.vue'
+import Navbar from './components/Navbar.vue'
+import About from './components/About.vue'
+import Carousel from './components/Carousel.vue'
+import Product from './components/Product.vue'
+import Contact from './components/Contact.vue'
 
 </script>
 
 <template>
  
-  <HelloWorld msg="Vite + Vue" />
-  <Section1/>
-  <Section2/>
-  <Section3/>
-  <Section4/>
+  <Navbar/>
+  <About/>
+  <Carousel/>
+  <Product/>
+  <Contact/>
 </template>
 
 <style scoped>

@@ -8,7 +8,7 @@
           v-for="product in products"
           :key="product.id"
         >
-          <div class="card">
+          <div class="card mb-5">
             <img
               class="card-img-top"
               :src="product.thumbnail"
@@ -50,6 +50,7 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
 .card-img-top {
   width: 100%;
   height: 250px;

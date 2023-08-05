@@ -42,6 +42,6 @@
     color: #ffffff;
 }
 .text-green-shadow{
-    text-shadow: 0px 4px 30px rgba(33, 97, 47, 0.8);
+    text-shadow: 0px 4px 30px rgba(33, 97, 47, 1);
 }
 </style>

@@ -63,6 +63,7 @@
   border: none;
   background-color: rgb(0, 0, 0);
   border-bottom: 1px solid #ffffff;
+  color: #ffffff;
 }
 .form-control-contact::placeholder {
   color: #ffffff;
