@@ -2,7 +2,7 @@
   <div class="bg-black">
     <div class="container padding-y-100">
       <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 mb-5">
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
           <img src="../assets/Bicycle.png" style="width: 100%" />
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 padding-x-50 mb-5">
@@ -37,7 +37,7 @@
             </div>
             <p class="color-text-white mt-4">Lorem Ipsum is simply dummy text <br>Lorem Ipsum is simply dummy text</p>
 
-            <button class="button-contact">Lorem</button>
+            <button class="button-contact fw-semibold">Lorem</button>
           </form>
         </div>
       </div>

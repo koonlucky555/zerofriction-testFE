@@ -16,11 +16,11 @@
             />
             <div class="card-body">
               <h5 class="card-title fw-bold">
-                {{ product.title
-                }}<span class="badge text-bg-danger ml-25"
-                  >Discount : {{ product.discountPercentage }} %</span
-                >
+                {{ product.title }}
               </h5>
+              <p class="badge text-bg-danger">
+                Discount : {{ product.discountPercentage }} %
+              </p>
               <p class="card-text">{{ product.description }}</p>
               <p class="card-text fw-semibold">
                 Brand: <span class="fw-normal">{{ product.brand }}</span>
@@ -46,10 +46,10 @@
 </template>
 
 <style scoped>
- @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
-    * {
-      font-family: "Montserrat", sans-serif;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
 .card-img-top {
   width: 100%;
   height: 250px;
@@ -82,26 +82,26 @@
 import axios from "axios";
 export default {
   data() {
-  return {
-    products: [],
-    urlProduct: "https://dummyjson.com/products?limit=3",
-  };
-},
+    return {
+      products: [],
+      urlProduct: "https://dummyjson.com/products?limit=3",
+    };
+  },
   created() {
     this.fetchProduct();
   },
   methods: {
     fetchProduct() {
-  axios
-    .get(this.urlProduct)
-    .then((res) => {
-      this.products = res.data.products; 
-      console.log(this.products);
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-},
+      axios
+        .get(this.urlProduct)
+        .then((res) => {
+          this.products = res.data.products;
+          console.log(this.products);
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    },
   },
 };
 </script>

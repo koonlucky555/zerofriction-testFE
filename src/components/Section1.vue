@@ -3,7 +3,7 @@
     <div class="container padding-y-100">
         <div class="row">
             <div class="col-lg-6 d-flex flex-wrap justify-content-start align-items-center">
-                <h1 class="text-96 color-title-green">LOREM<br><span class="color-title-white">IPSUM</span></h1>
+                <h1 class="text-96 color-title-green text-green-shadow">LOREM<br><span class="color-title-white">IPSUM</span></h1>
                 <p class="text-20 color-title-white">Lorem Ipsum is simply Lorem Ipsum is simply Lorem Ipsum is simply</p>
                 <p class="text-18 color-title-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
             </div>
@@ -40,5 +40,8 @@
 }
 .color-title-white{
     color: #ffffff;
+}
+.text-green-shadow{
+    text-shadow: 0px 4px 30px rgba(33, 97, 47, 0.8);
 }
 </style>
